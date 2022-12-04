@@ -86,5 +86,6 @@ export const getCompanies = () => {
     acquiredBy: data["Acquired By"],
     acquisitionDate: data["Acquisition Date"],
   }));
+
   return Promise.resolve(companies);
 };
